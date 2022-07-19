@@ -1,0 +1,8 @@
+include ':hooklibrary'
+include ':baselibrary'
+include ':otherlibrary'
+include ':jetpacklibrary'
+include ':ktlibrary'
+include ':javalib'
+include ':app'
+rootProject.name = "MultiStudy"
