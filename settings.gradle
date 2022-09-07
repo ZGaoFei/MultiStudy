@@ -5,4 +5,9 @@ include ':jetpacklibrary'
 include ':ktlibrary'
 include ':javalib'
 include ':app'
+
+//flutter以module的方式引入原生项目 0
+setBinding(new Binding([gradle: this]))
+evaluate(new File(settingsDir.parentFile, 'MultiStudy/flutterlibrary/.android/include_flutter.groovy'))
+
 rootProject.name = "MultiStudy"

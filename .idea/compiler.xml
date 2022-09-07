@@ -2,12 +2,13 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="1.7">
-      <module name="MultiStudy.app" target="1.8" />
-      <module name="MultiStudy.baselibrary" target="1.8" />
-      <module name="MultiStudy.hooklibrary" target="1.8" />
-      <module name="MultiStudy.jetpacklibrary" target="1.8" />
-      <module name="MultiStudy.ktlibrary" target="1.8" />
-      <module name="MultiStudy.otherlibrary" target="1.8" />
+      <module name="MultiStudy.app" target="11" />
+      <module name="MultiStudy.baselibrary" target="11" />
+      <module name="MultiStudy.flutter" target="11" />
+      <module name="MultiStudy.hooklibrary" target="11" />
+      <module name="MultiStudy.jetpacklibrary" target="11" />
+      <module name="MultiStudy.ktlibrary" target="11" />
+      <module name="MultiStudy.otherlibrary" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

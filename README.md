@@ -31,6 +31,8 @@
     14、Android系统的新特性
     
 ## 计划
+
+    0、现有项目集成flutter
     
     1、创建一个Java lib学习算法
     每10题一个类
@@ -46,4 +48,6 @@
     5、JetPack lib学习JetPack
     
     6、引入类多类别列表框架、schedule（简单的线程切换工具）、serializer（简单的实现链式调用工具）、Route（一套基本的组件化工具）
+
+> 文档路径：/doc
     
