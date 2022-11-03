@@ -2,8 +2,11 @@ package com.zgf.multistudy;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import com.zgf.ktlibrary.KtMainActivity;
 
 import io.flutter.embedding.android.FlutterActivity;
 
@@ -22,6 +25,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 openFlutterPage();
+            }
+        });
+
+        findViewById(R.id.tv_open_kotlin).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, KtMainActivity.class));
             }
         });
     }
