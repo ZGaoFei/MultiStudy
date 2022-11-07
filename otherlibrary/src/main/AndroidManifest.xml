@@ -2,4 +2,25 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.zgf.otherlibrary">
 
+    <application>
+        <activity
+            android:name=".vlayout.VLayout2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".vlayout.StaggeredGridActivity"
+            android:exported="false" />
+        <activity
+            android:name=".vlayout.OnePlusNLayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".vlayout.DelegateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".vlayout.VLayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OtherMainActivity"
+            android:exported="false" />
+    </application>
+
 </manifest>
