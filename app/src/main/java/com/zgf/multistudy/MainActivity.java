@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.zgf.ktlibrary.KtMainActivity;
+import com.zgf.otherlibrary.OtherMainActivity;
 
 import io.flutter.embedding.android.FlutterActivity;
 
@@ -32,6 +33,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, KtMainActivity.class));
+            }
+        });
+
+        findViewById(R.id.tv_open_other).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, OtherMainActivity.class));
             }
         });
     }

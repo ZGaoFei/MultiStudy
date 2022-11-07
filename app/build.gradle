@@ -60,4 +60,5 @@ dependencies {
     //flutter以module的方式引入原生项目 1
     implementation project(':flutter')
     implementation project(':ktlibrary')
+    implementation project(':otherlibrary')
 }
