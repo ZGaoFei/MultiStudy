@@ -6,6 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.zgf.otherlibrary.randomlayout.CircleRandomTestActivity;
+import com.zgf.otherlibrary.randomlayout.RandomLayoutActivity;
+import com.zgf.otherlibrary.randomlayout.RandomTestActivity;
 import com.zgf.otherlibrary.vlayout.DelegateActivity;
 import com.zgf.otherlibrary.vlayout.OnePlusNLayoutActivity;
 import com.zgf.otherlibrary.vlayout.StaggeredGridActivity;
@@ -55,6 +58,27 @@ public class OtherMainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(OtherMainActivity.this, VLayout2Activity.class));
+            }
+        });
+
+        findViewById(R.id.other_tv_random_layout).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(OtherMainActivity.this, RandomLayoutActivity.class));
+            }
+        });
+
+        findViewById(R.id.other_tv_random_test_layout).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(OtherMainActivity.this, RandomTestActivity.class));
+            }
+        });
+
+        findViewById(R.id.other_tv_circle_random_layout).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(OtherMainActivity.this, CircleRandomTestActivity.class));
             }
         });
     }

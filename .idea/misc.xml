@@ -6,14 +6,22 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.325" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2985" />
         <entry key="ktlibrary/src/main/res/layout/activity_kt_main.xml" value="0.25" />
+        <entry key="otherlibrary/src/main/res/drawable-xxh/border_bg.xml" value="0.1915" />
         <entry key="otherlibrary/src/main/res/drawable/border_bg.xml" value="0.1525" />
+        <entry key="otherlibrary/src/main/res/drawable/item_background.xml" value="0.2245" />
+        <entry key="otherlibrary/src/main/res/drawable/item_text_bg.xml" value="0.2245" />
+        <entry key="otherlibrary/src/main/res/layout/activity_circle_random_test.xml" value="0.33967391304347827" />
         <entry key="otherlibrary/src/main/res/layout/activity_delegate.xml" value="0.26313405797101447" />
         <entry key="otherlibrary/src/main/res/layout/activity_one_plus_nlayout.xml" value="0.26313405797101447" />
         <entry key="otherlibrary/src/main/res/layout/activity_other_main.xml" value="0.26313405797101447" />
+        <entry key="otherlibrary/src/main/res/layout/activity_random_layout.xml" value="0.266304347826087" />
+        <entry key="otherlibrary/src/main/res/layout/activity_random_test.xml" value="0.20969202898550723" />
         <entry key="otherlibrary/src/main/res/layout/activity_staggered_grid.xml" value="0.26313405797101447" />
         <entry key="otherlibrary/src/main/res/layout/activity_vlayout.xml" value="0.26313405797101447" />
         <entry key="otherlibrary/src/main/res/layout/activity_vlayout2.xml" value="0.26313405797101447" />
         <entry key="otherlibrary/src/main/res/layout/item.xml" value="0.26313405797101447" />
+        <entry key="otherlibrary/src/main/res/layout/item_layout.xml" value="0.266304347826087" />
+        <entry key="otherlibrary/src/main/res/layout/item_text_layout.xml" value="0.33967391304347827" />
         <entry key="otherlibrary/src/main/res/layout/view_pager.xml" value="0.26313405797101447" />
       </map>
     </option>

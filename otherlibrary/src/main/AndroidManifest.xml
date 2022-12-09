@@ -4,6 +4,15 @@
 
     <application>
         <activity
+            android:name=".randomlayout.CircleRandomTestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".randomlayout.RandomTestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".randomlayout.RandomLayoutActivity"
+            android:exported="false" />
+        <activity
             android:name=".vlayout.VLayout2Activity"
             android:exported="false" />
         <activity
